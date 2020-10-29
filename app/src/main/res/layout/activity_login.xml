@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:outlineSpotShadowColor="@android:color/black"
+    android:outlineAmbientShadowColor="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginBottom="22dp"
+            android:text="هل نسيت كلمة المرور؟"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bSignup"
+            android:layout_width="90dp"
+            android:layout_height="46dp"
+            android:layout_below="@+id/etPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="26dp"
+            android:text="حساب جديد" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="336dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/textView82"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="-114dp"
+            android:layout_marginBottom="12dp"
+            android:background="#D8D5D5"
+
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:shadowColor="@android:color/black"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView82"
+            tools:layout_editor_absoluteX="27dp" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/etPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="317dp"
+            android:layout_marginTop="-42dp"
+            android:text="كلمة المرور"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="336dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="218dp"
+            android:background="#D8D5D5"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:outlineAmbientShadowColor="@android:color/black"
+            android:outlineSpotShadowColor="@android:color/black"
+            android:shadowColor="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black" />
+
+        <Button
+            android:id="@+id/bSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="59dp"
+            android:layout_weight="1"
+            android:text="تسجيل دخول" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="259dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="16dp"
+            android:text="البريد الالكتروني"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etEmail"
+            tools:layout_editor_absoluteX="29dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            app:layout_constraintBottom_toTopOf="@+id/etEmail"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/rasef"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="277dp"
+            android:layout_marginTop="20dp"
+            android:text="مرحبا بك ,,,"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+</RelativeLayout>
+

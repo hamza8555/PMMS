@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReginsFragment">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="استمارة مسح عيوب المناطق الشوارع الرئيسية"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView20"
+        android:hint="اسم البلدية الفرعية" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner3"
+        android:hint="رقم المنطقة الفرعية" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner4"
+        android:hint="اسم الحي" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner5"
+        android:hint="رقم الشارع الفرعي" />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner6"
+        android:hint="اسم الشارع الفرعي" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner7"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="30dp"
+        android:background="#5A69EF"
+        android:text="ادخال العيوب"
+        android:textColor="@android:color/white"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner7"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="#4BB1A2"
+        android:text="تعديل"
+        android:textColor="@android:color/white"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</RelativeLayout>

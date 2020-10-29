@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login UI</string>
+
+    <string name="title_activity_navigation_menu">NavigationMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">PersonalDetail</string>
+    <string name="menu_gallery">التقاطعات</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="PersonalDetails">PersonalDetail</string>
+    <string name="التقاطعات">التقاطعات</string>
+    <string name="المناطق">المناطق</string>
+    <string name="AboutApp">About App</string>
+    <string name="Help">Help</string>
+    <string name="Support">Support</string>
+    <string name="tab_text_1">التقاطعات</string>
+    <string name="tab_text_2">المناطق</string>
+    <string name="title_activity_choose1">choose1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan_dis_intersections_in_main_streets_form">Scan Dis. Intersections in Main Streets Form:</string>
+</resources>
